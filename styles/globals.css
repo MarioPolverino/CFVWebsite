@@ -1,0 +1,375 @@
+@import url(http://db.onlinewebfonts.com/c/fb53f71960b6379170d01dd82e92b936?family=PF+Agora+Slab+Pro);
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  line-height: 1.6em;
+  color: #000000;
+  font-size: 18px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1170px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+p{
+  font-family: 'Proxima Nova Rg';
+  font-weight: normal;
+  color: #6d6d6d;
+}
+
+p:last-child{
+  margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "PF Agora Slab Pro";
+  font-weight: 700;
+}
+
+h1, .h1{
+  font-size: 72px;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+
+h2{
+  margin-bottom: 0.9em;
+  line-height: 1.2;
+  font-size: 30px;
+  max-width: 90%;
+}
+h2 span{
+  color: #2b96b0;
+}
+
+h3{
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h4{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+h5{
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 0.5em;
+}
+
+h6{
+  font-size: 16px;
+  color: #6d6d6d;
+  margin-bottom: 0;
+  line-height: 16px;
+  font-weight: normal;
+  font-family: 'Proxima Nova Rg';
+}
+
+.text-lg{
+  font-size: 48px;
+}
+
+.py-130{
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.text-normal{
+  letter-spacing: normal !important;
+}
+
+.text-blue{
+  color: var(--blue);
+}
+
+.text-yellow{
+  color: var(--primary);
+}
+
+.text-black{
+  color: #000000;
+}
+
+.font-weight-normal{
+  font-weight: normal !important;
+}
+
+.btn{
+  font-family: "PF Agora Slab Pro";
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 12px 22px;
+  border-radius: 0;
+  font-size: 16px;
+  border: none;
+}
+
+.btn:hover{
+  box-shadow: 7px 7px 15px rgba(35,149,178,0.3);
+}
+
+button{
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-grad, .navbar-light .navbar-toggler{
+  color: #fff !important;
+  background: rgb(35,111,179);
+  background: -moz-linear-gradient(-90deg, rgba(35,111,179,1) 0%, rgba(35,149,178,1) 100%);
+  background: -webkit-linear-gradient(-90deg, rgba(35,111,179,1) 0%, rgba(35,149,178,1) 100%);
+  background: linear-gradient(-90deg, rgba(35,111,179,1) 0%, rgba(35,149,178,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#236fb3",endColorstr="#2395b2",GradientType=1);
+}
+.navbar-toggler-icon{
+  filter: invert(11) brightness(60.5);
+}
+
+.header{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  padding: 15px 0;
+  z-index: 999;
+  left: 0;
+  top: 0;
+}
+.navbar-brand{
+  padding: 0;
+}
+.navbar-brand div{
+  display: block !important;
+}
+.navbar-nav .nav-link{
+  margin-right: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #2b96b0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-size: 17px;
+  color: #2e2e2e;
+  font-weight: normal;
+  font-family: 'Proxima Nova Rg';
+}
+
+.home-banner .container{
+  position: absolute;
+  bottom: 130px;
+  z-index: 2;
+  right: 0;
+  left: 0;
+}
+.home-banner img, .home-banner > div{
+  display: block !important;
+}
+.home-banner:before{
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 50%;
+  content: "";
+  position: absolute;
+  background: rgb(35,150,177);
+  background: -moz-linear-gradient(0deg, rgba(35,150,177,1) 0%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(35,150,177,1) 0%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(0deg, rgba(35,150,177,1) 0%, rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2396b1",endColorstr="#000000",GradientType=1);
+}
+
+.services{
+  z-index: 5;
+  margin-top: -90px;
+  position: relative;
+  padding: 75px 15px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.services h4{
+  margin-top: 20px;
+}
+.services .col-md-4 + .col-md-4{
+  border-left: 1px solid #DFDFDF;
+}
+
+.section-title{
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 10px;
+  align-items: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova Rg';
+}
+.section-title:before{
+  background-color: #000;
+  margin-right: 15px;
+  content: "";
+  width: 70px;
+  height: 1px;
+}
+
+.footer{
+  font-size: 15px;
+  color: #888;
+}
+.footer .row{
+  padding: 40px 0;
+  border-top: 1px solid #E5E5E5;
+}
+.footer .row div{
+  display: block !important;
+}
+
+.logo{
+  max-width: 145px !important;
+  min-width: 145px !important;
+  height: 61px !important;
+}
+.form-floating>label{
+  padding-left: 0;
+  line-height: 1.4;
+  font-size: 17px;
+  color: #888;
+}
+.form-control{
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  border-color: #B8B8B8;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.form-control:focus{
+  border-color: #000;
+}
+.form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+  -webkit-transform: scale(.85) translateY(-0.8rem) translateX(0rem);
+  transform: scale(.85) translateY(-0.8rem) translateX(0rem);
+}
+form{
+  background: #FFFFFF;
+  padding: 60px 60px 40px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+}
+form .btn{
+  min-width: 150px;
+}
+
+.contact-image{
+  margin: -93px -25px 0 0;
+  position: relative;
+  max-width: 320px;
+  float: right;
+  width: 100%;
+  z-index: -1;
+}
+
+.owl-image div{
+  display: block !important;
+}
+.owl-image{
+  position: relative;
+}
+.owl-image:before{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #2396B1 90.27%);
+  position: absolute;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  content: '';
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+.owl-image h5{
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  z-index: 2;
+  width: 90%;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 25px 30px;
+  position: absolute;
+}
+.owl-carousel .owl-stage-outer{
+  overflow: visible;
+}
+.owl-theme .owl-nav [class*=owl-]{
+  top: 50%;
+  padding: 0;
+  width: 58px;
+  height: 58px;
+  border-radius: 0;
+  line-height: 52px;
+  position: absolute;
+  margin: 0 !important; 
+  transform: translate(0, -50%);
+  background: #000000 !important;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+.owl-carousel .owl-nav .owl-prev{
+  left: -32px;
+}
+.owl-carousel .owl-nav .owl-next{
+  right: -32px;
+}
+.owl-carousel .owl-item:before{
+  top: 0;
+  left: 0;
+  z-index: 5;
+  content: "";
+  width: 100%;
+  opacity: 0.8;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0) -36.35%, #FFFFFF 59.43%);
+}
+.owl-carousel .owl-item.active:before{
+  display: none;
+}
+.owl-carousel .owl-item.active + .owl-item:before{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) -36.35%, #FFFFFF 59.43%);
+}
+.owl-carousel .owl-item .owl-image:before{
+  display: none;
+}
+.owl-carousel .owl-item.active .owl-image:before{
+  display: block;
+}

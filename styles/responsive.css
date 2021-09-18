@@ -1,0 +1,150 @@
+@media screen and (max-width: 1199px){
+    .home-banner .container{
+        bottom: 85px;
+    }
+    h3{
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    h1{
+        font-size: 58px;
+    }
+    .services{
+        padding: 45px 0;
+    }
+    .owl-carousel .owl-nav .owl-prev{
+        left: -25px;
+    }
+    .owl-carousel .owl-nav .owl-next{
+        right: -25px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    body{
+        font-size: 16px;
+    }
+    .navbar-nav .nav-link{
+        margin-right: 0;
+    }
+    .services{
+        margin-top: -40px;
+    }
+    .home-banner .container {
+        bottom: 30px;
+    }
+    .py-130{
+        padding-top: 100px;
+        padding-bottom: 75px;
+    }
+
+    h2{
+        font-size: 25px;
+        max-width: 100%;
+    }
+    .section-title{
+        font-size: 16px;
+    }
+    .section-title:before{
+        width: 50px;
+    }
+    .owl-image h5{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 20px 15px;
+    }
+    .owl-theme .owl-nav [class*=owl-]{
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header{
+        padding: 10px 0;
+        position: fixed;
+    }
+    .home-banner{
+        margin-top: 80px;
+    }
+    .services .col-md-4 + .col-md-4{
+        border-left: none;
+        margin-top: 35px;
+        padding-top: 35px;
+    }
+    .services .col-md-4{
+        position: relative;
+    }
+    .services .col-md-4:not(:first-child):before{
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        content: "";
+        width: 150px;
+        margin: auto;
+        position: absolute;
+        background-color: #DFDFDF;
+    }
+    .owl-image h5{
+        font-size: 18px;
+    }
+}   
+
+@media screen and (max-width: 575px){
+    h1{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .footer{
+        font-size: 13px;
+    }
+    .services{
+        margin-top: 0px;
+    }
+    #services{
+        padding-top: 85px;
+    }
+    .home-banner .container{
+        background: rgb(35,150,177);
+        position: relative;
+        padding: 25px 25px;
+        bottom: 0;
+    }
+    .home-banner:before{
+        background: none;
+    }
+    .home-banner h1{
+        margin-bottom: 0;
+    }
+    .text-lg {
+        font-size: 30px;
+    }
+    form{
+        padding: 25px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .footer {
+        font-size: 12px;
+    }
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .owl-carousel .owl-nav .owl-prev{
+        left: -15px;
+    }
+    .owl-carousel .owl-nav .owl-next{
+        right: -15px;
+    }
+    .contact-image{
+        margin-right: -15px;
+    }
+}

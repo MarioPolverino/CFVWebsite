@@ -11,6 +11,7 @@ function WorkSlider() {
         loop: true,
         rewind: true,
         autoplay: true,
+        center: true,
         dots: false,
         responsive:{
             0:{

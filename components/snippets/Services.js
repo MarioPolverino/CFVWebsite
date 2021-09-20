@@ -15,7 +15,7 @@ function Services() {
                 </Col>
                 <Col md={4} xs={12}>
                   <Image src="/helmet.png" width="65" height="65" alt="stairs" />
-                  <h4>Consctruction Management</h4>
+                  <h4>Construction Management</h4>
                   <h6>Efficient. Reliable. Experienced.</h6>
                 </Col>
                 <Col md={4} xs={12}>

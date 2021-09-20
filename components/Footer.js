@@ -8,7 +8,7 @@ function Footer() {
             <Container>
                 <Row className="align-items-center justify-content-between">
                     <Col md={'auto'} className="text-center mb-md-0 mb-4" xs={12}>
-                        <Image src="/logo.png" className="logo" width="145" height="61" alt="logo" />
+                        <Image src="/logo.svg" className="logo" width="145" height="61" alt="logo" />
                     </Col>
                     <Col md={'auto'} xs={'auto'}>
                         ©2021 by CFV GROUP. All rights reserved.

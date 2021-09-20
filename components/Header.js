@@ -9,7 +9,7 @@ function Header() {
     return (
         <Navbar className="header w-100" expanded={expanded} expand="md">
             <Container>
-                <Navbar.Brand href="#home"><Image src="/logo.png" className="img-fluid logo" width="145" height="61" alt="logo" /></Navbar.Brand>
+                <Navbar.Brand href="#home"><Image src="/logo.svg" className="img-fluid logo" width="145" height="61" alt="logo" /></Navbar.Brand>
                 <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className={expanded ? 'show' : ''} id="basic-navbar-nav">
                     <Nav className="ms-auto">

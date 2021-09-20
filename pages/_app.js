@@ -23,7 +23,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Keywords" />
         <title>CFV</title>
 
-        <link rel="manifest" href="manifest.json" />
         <link
           href="fav.png"
           rel="icon"
@@ -38,7 +37,6 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="apple-touch-icon" href="fav.png" />
         <meta name="theme-color" content="#093254" />
-        {/*  */}
         
       </Head>
       <Layout>

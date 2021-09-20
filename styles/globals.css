@@ -297,7 +297,13 @@ form .btn{
   width: 100%;
   z-index: -1;
 }
-
+.owl-image{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .owl-image div{
   display: block !important;
 }

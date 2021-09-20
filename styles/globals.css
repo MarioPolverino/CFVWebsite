@@ -52,8 +52,8 @@ p:last-child{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: "PF Agora Slab Pro";
-  font-weight: 700;
+  font-family: 'PF Agora Slab Pro';
+  font-weight: bold;
 }
 
 h1, .h1{
@@ -128,7 +128,7 @@ h6{
 }
 
 .btn{
-  font-family: "PF Agora Slab Pro";
+  font-family: 'PF Agora Slab Pro';
   text-transform: uppercase;
   font-weight: normal;
   padding: 12px 22px;

@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
         />
         <link rel="apple-touch-icon" href="fav.png" />
         <meta name="theme-color" content="#093254" />
-        <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+        <script defer type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
         
       </Head>
       <Layout>

@@ -10,7 +10,7 @@ function WorkSlider() {
         navText:['<Image src="/arrowLeft.png" className="img-fluid" width="26" height="26" alt="slide arrow" />', '<Image src="/arrowRight.png" className="img-fluid" width="26" height="26" alt="slide arrow" />'],
         loop: true,
         rewind: true,
-        // autoplay: true,
+        autoplay: true,
         dots: false,
         responsive:{
             0:{

@@ -36,7 +36,7 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Name" /> */}
-                <Form.Control type="text" name="name" placeholder="Name" />
+                <input type="text" name="name" placeholder="Name" className="form-control" />
             </FloatingLabel>
             <FloatingLabel
                 controlId="floatingInput"
@@ -44,7 +44,7 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setEmail(e.target.value)} placeholder="Email *" required={true} /> */}
-                <Form.Control type="email" name="email" placeholder="Email *" required={true} />
+                <input type="email" name="email" placeholder="Email *" className="form-control" required />
             </FloatingLabel>
             <FloatingLabel
                 controlId="floatingInput"
@@ -52,17 +52,18 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setSubject(e.target.value)} placeholder="Subject" /> */}
-                <Form.Control type="text" name="subject" placeholder="Subject" />
+                <input type="text" name="subject" placeholder="Subject" className="form-control" />
             </FloatingLabel>
             <FloatingLabel controlId="floatingTextarea2" label="Message">
-                <Form.Control
+                {/* <Form.Control
                 as="textarea"
                 className="mb-4"
-                // onChange={e => setMessage(e.target.value)}
+                onChange={e => setMessage(e.target.value)}
                 name="message"
                 placeholder="Message"
                 style={{ height: '100px' }}
-                />
+                /> */}
+                <textarea className="mb-4 form-control" name="message" placeholder="Message" style={{ height: '100px' }}></textarea>
             </FloatingLabel>
 
             <Button className="btn btn-grad rounded-0 border-0" type="Submit">

@@ -28,7 +28,7 @@ function ContactForm() {
     // };
 // onSubmit={handleSubmit}
     return (
-        <Form name="contact" method="POST" data-netlify="true">
+        <Form name="contact" method="POST" data-netlify="true" enctype="application/x-www-form-urlencoded">
             <input type="hidden" name="form-name" value="contact" />
             <FloatingLabel
                 controlId="floatingInput"

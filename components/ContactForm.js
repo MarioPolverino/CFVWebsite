@@ -44,7 +44,7 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setEmail(e.target.value)} placeholder="Email *" required={true} /> */}
-                <Form.Control type="text" name="email" placeholder="Email *" required={true} />
+                <Form.Control type="email" name="email" placeholder="Email *" required={true} />
             </FloatingLabel>
             <FloatingLabel
                 controlId="floatingInput"

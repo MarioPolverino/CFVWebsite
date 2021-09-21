@@ -36,7 +36,7 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setName(e.target.value)} placeholder="Name" /> */}
-                <input type="text" name="name" placeholder="Name" className="form-control" />
+                <input type="text" name="your_name" placeholder="Name" className="form-control" />
             </FloatingLabel>
             <FloatingLabel
                 controlId="floatingInput"
@@ -44,7 +44,7 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setEmail(e.target.value)} placeholder="Email *" required={true} /> */}
-                <input type="email" name="email" placeholder="Email *" className="form-control" required />
+                <input type="email" name="your_email" placeholder="Email *" className="form-control" required />
             </FloatingLabel>
             <FloatingLabel
                 controlId="floatingInput"
@@ -52,7 +52,7 @@ function ContactForm() {
                 className="mb-2"
             >
                 {/* <Form.Control type="text" onChange={e => setSubject(e.target.value)} placeholder="Subject" /> */}
-                <input type="text" name="subject" placeholder="Subject" className="form-control" />
+                <input type="text" name="your_subject" placeholder="Subject" className="form-control" />
             </FloatingLabel>
             <FloatingLabel controlId="floatingTextarea2" label="Message">
                 {/* <Form.Control
@@ -63,7 +63,7 @@ function ContactForm() {
                 placeholder="Message"
                 style={{ height: '100px' }}
                 /> */}
-                <textarea className="mb-4 form-control" name="message" placeholder="Message" style={{ height: '100px' }}></textarea>
+                <textarea className="mb-4 form-control" name="your_message" placeholder="Message" style={{ height: '100px' }}></textarea>
             </FloatingLabel>
 
             <Button className="btn btn-grad rounded-0 border-0" type="Submit">

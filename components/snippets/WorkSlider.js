@@ -38,7 +38,7 @@ function WorkSlider() {
             <div className="item">
                 <div className="owl-image" style={{backgroundImage:'url(/slideImage2.png)'}}>
                     {/* <Image src="/slideImage2.png" className="img-fluid" width="360" height="510" alt="slide image" /> */}
-                    <h5>Long Project Name Goes Here in Two Lines</h5>
+                    <h5>New Residential Area in Hunters Hill</h5>
                 </div>
             </div>
             <div className="item">
@@ -56,7 +56,7 @@ function WorkSlider() {
             <div className="item">
                 <div className="owl-image" style={{backgroundImage:'url(/slideImage2.png)'}}>
                     {/* <Image src="/slideImage2.png" className="img-fluid" width="360" height="510" alt="slide image" /> */}
-                    <h5>Long Project Name Goes Here in Two Lines</h5>
+                    <h5>New Residential Area in Hunters Hill</h5>
                 </div>
             </div>
             <div className="item">

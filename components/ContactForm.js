@@ -1,6 +1,6 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import {Form, Button, FloatingLabel} from 'react-bootstrap'
-// import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactForm() {
     // const [name, setName] = useState('');
@@ -29,14 +29,14 @@ function ContactForm() {
     // };
 // onSubmit={handleSubmit}
 
-    // const [value, setValue] = useState('');
+    const [value, setValue] = useState('');
 
-    // function onChange(value) {
-    //     setValue(value)
-    // }
+    function onChange(value) {
+        setValue(value)
+    }
 
     return (
-        <Form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <Form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" encType="application/x-www-form-urlencoded">
             <input type="hidden" name="form-name" value="contact" />
             <FloatingLabel
                 controlId="floatingInput"
@@ -75,14 +75,13 @@ function ContactForm() {
             </FloatingLabel>
 
             <div className="mb-4">
-                {/* <ReCAPTCHA
+                <ReCAPTCHA
                     sitekey="6LfBp5McAAAAAKp4bE-YdA3NLjf0oVPDoqlyNISq"
                     onChange={onChange}
-                /> */}
-                <div data-netlify-recaptcha="true"></div>
+                />
             </div>
 
-            <Button className="btn btn-grad rounded-0 border-0" type="Submit">
+            <Button className="btn btn-grad rounded-0 border-0" disabled={value ? false : true} type="Submit">
                 Submit
             </Button>
         </Form>

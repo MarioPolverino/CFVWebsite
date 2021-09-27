@@ -1,5 +1,6 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import {Form, Button, FloatingLabel} from 'react-bootstrap'
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactForm() {
     // const [name, setName] = useState('');
@@ -27,6 +28,13 @@ function ContactForm() {
     //     window.location.href = mailto;
     // };
 // onSubmit={handleSubmit}
+
+    const [value, setValue] = useState('');
+
+    function onChange(value) {
+        setValue(value)
+    }
+
     return (
         <Form name="contact" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
             <input type="hidden" name="form-name" value="contact" />
@@ -66,7 +74,14 @@ function ContactForm() {
                 <textarea className="mb-4 form-control" name="your_message" placeholder="Message" style={{ height: '100px' }}></textarea>
             </FloatingLabel>
 
-            <Button className="btn btn-grad rounded-0 border-0" type="Submit">
+            <div className="mb-4">
+                <ReCAPTCHA
+                    sitekey="6LfBp5McAAAAAKp4bE-YdA3NLjf0oVPDoqlyNISq"
+                    onChange={onChange}
+                />
+            </div>
+
+            <Button className="btn btn-grad rounded-0 border-0" disabled={value ? false : true} type="Submit">
                 Submit
             </Button>
         </Form>

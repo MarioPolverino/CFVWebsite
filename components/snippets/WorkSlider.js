@@ -30,7 +30,7 @@ function WorkSlider() {
     return (
         <OwlCarousel options={options}>
             <div className="item">
-                <div className="owl-image" style={{backgroundImage:'url(/slideImage1.png)'}}>
+                <div className="owl-image" style={{backgroundImage:'url(/slideImage1.webp)'}}>
                     {/* <Image src="/slideImage1.png" className="img-fluid" width="360" height="510" alt="slide image" /> */}
                     <h5>British Colonial Restoration With Modern Extension</h5>
                 </div>
@@ -48,21 +48,9 @@ function WorkSlider() {
                 </div>
             </div>
             <div className="item">
-                <div className="owl-image" style={{backgroundImage:'url(/slideImage1.png)'}}>
+                <div className="owl-image" style={{backgroundImage:'url(/slideImage4.webp)'}}>
                     {/* <Image src="/slideImage1.png" className="img-fluid" width="360" height="510" alt="slide image" /> */}
-                    <h5>British Colonial Restoration With Modern Extension</h5>
-                </div>
-            </div>
-            <div className="item">
-                <div className="owl-image" style={{backgroundImage:'url(/slideImage2.png)'}}>
-                    {/* <Image src="/slideImage2.png" className="img-fluid" width="360" height="510" alt="slide image" /> */}
-                    <h5>New Residential Area in Hunters Hill</h5>
-                </div>
-            </div>
-            <div className="item">
-                <div className="owl-image" style={{backgroundImage:'url(/slideImage3.png)'}}>
-                    {/* <Image src="/slideImage3.png" className="img-fluid" width="360" height="510" alt="slide image" /> */}
-                    <h5>North Bondi Residential Renovation Project</h5>
+                    <h5>Sydney Eastern Suburbs</h5>
                 </div>
             </div>
         </OwlCarousel>

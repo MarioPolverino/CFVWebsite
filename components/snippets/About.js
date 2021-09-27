@@ -14,7 +14,7 @@ function About() {
                     <p>CFV GROUP was founded with a single mission: to build and renovate structures with enduring value and the potential to become timeless. Our team of creative professionals carefully evaluate each project in order to adhere to both financial and time constraints.</p>
                   </Col>
                   <Col md={5} lg={6}>
-                    <Image src="/about-image.png" width="540" height="375" alt="about" />
+                    <Image src="/about-image.webp" width="540" height="375" alt="about" />
                   </Col>
               </Row>
           </Container>

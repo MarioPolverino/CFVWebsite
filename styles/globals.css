@@ -378,3 +378,7 @@ form .btn{
 .owl-carousel .owl-item.active .owl-image:before{
   display: block;
 }
+
+#about img{
+  object-fit: cover;
+}

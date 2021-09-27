@@ -36,7 +36,7 @@ function ContactForm() {
     // }
 
     return (
-        <Form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+        <Form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <input type="hidden" name="form-name" value="contact" />
             <FloatingLabel
                 controlId="floatingInput"

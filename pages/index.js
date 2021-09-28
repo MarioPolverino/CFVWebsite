@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="home-banner position-relative text-white">
-        <Image src="/banner.png" width="1920" height="920" alt="banner" />
+        <Image src="/about-image.webp" width="1920" height="920" alt="banner" />
         <Container>
           <Row>
             <Col>
